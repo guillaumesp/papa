@@ -29,8 +29,8 @@ body {
 }
 
 .container-center {
-  height: 80vh;
-  height: calc(var(--vh, 1vh) * 80);
+  max-height: 80vh;
+  max-height: calc(var(--vh, 1vh) * 80);
   background-color: rgba(250, 235, 215, 0.315);
   overflow: auto;
   padding: 50px;
@@ -43,6 +43,7 @@ body {
 }
 .t2 {
   font-weight: 500;
+  text-shadow: 0px 0px 10px white;
   b {
     font-weight: 900;
     font-size: 1.2rem;

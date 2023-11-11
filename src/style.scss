@@ -8,9 +8,12 @@ body, html {
   //background cover
   background: url(../medias/bg.jpg) no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 
+}
+a {
+  color:#bb3e1b;
 }
 p {
   margin: 0;
@@ -23,14 +26,23 @@ body {
   justify-content: center;
   overflow: hidden;
 }
+
 .container-center {
   max-height: 80vh;
   background-color: rgba(250, 235, 215, 0.315);
   overflow: auto;
   padding: 50px;
   .pre {
-    font-weight: 500;
+    // font-weight: 800;
+    font-size: 1.2rem;
   }
-  backdrop-filter: blur(20px);
-  text-shadow: 0px 0px 2px white;
+  backdrop-filter: blur(80px);
+  text-shadow: 0px 0px 30px white;
+}
+.t2 {
+  font-weight: 500;
+  b {
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
 }

@@ -21,6 +21,7 @@ p {
 body {
   display: flex;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   width: 100vw; 
   align-items: center;
   justify-content: center;
@@ -28,7 +29,8 @@ body {
 }
 
 .container-center {
-  max-height: 80vh;
+  height: 80vh;
+  height: calc(var(--vh, 1vh) * 80);
   background-color: rgba(250, 235, 215, 0.315);
   overflow: auto;
   padding: 50px;
